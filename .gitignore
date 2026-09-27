@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+
+# Environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+.cursor/
+
+# Datasets, model weights, and generated experiment artifacts
+data/
+domainbed/data/
+outputs/
+train_output/
+wandb/
+selector/results/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.npz
+
+# Local third-party checkouts
+ensemble-of-averages/
+oldoutputs/
+PAIR/
+domainbed/facebook.py
